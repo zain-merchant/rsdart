@@ -1,0 +1,273 @@
+/*****
+*
+*
+* Author Name : Zain Merchant
+* Author URI : http://merchantzain.com
+*
+*
+*****/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover, a:visited, a{
+	text-decoration: none;
+}
+/*header area*/
+.top-header{
+	background: #019691;
+	position: fixed;
+	width: 100%;
+	z-index: 333;
+}
+.header-row{
+	margin: 0;
+	padding: 0;
+}
+.top-header img.logo{
+	float: left;
+	margin-top: 8px;
+	margin-bottom: 30px;
+	transition:all 0.7s ease 0s;
+	-webkit-transition:all 0.7s ease 0s;
+	-moz-transition:all 0.7s ease 0s;
+	-o-transition:all 0.7s ease 0s;
+	-ms-transition:all 0.7s ease 0s;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0;
+  margin-top: 23px;
+  transition:all 0.7s ease 0s;
+	-webkit-transition:all 0.7s ease 0s;
+	-moz-transition:all 0.7s ease 0s;
+	-o-transition:all 0.7s ease 0s;
+	-ms-transition:all 0.7s ease 0s;
+}
+.navbar-toggle span{
+	color: #fff;
+}
+ul.nav{
+	margin: 0;
+	padding: 0;
+}
+.navbar-default .navbar-nav>li>a {
+ 	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 800;
+	transition: all .7s ease 0s;
+	-webkit-transition: all .7s ease 0s;
+	-moz-transition: all .7s ease 0s;
+	-o-transition: all .7s ease 0s;
+	-ms-transition: all .7s ease 0s;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: red;
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+  margin-top: 4px;
+}
+
+/* carousel */
+.carousel-main{
+	padding-top: 100px;
+}
+/*banner area*/
+
+.banner h2{
+	padding-top: 50px;
+	font-size: 46px;
+	color: #019691;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+
+/*about section*/
+.about{
+	background: #fff;
+}
+.about h2{
+	font-size: 46px;
+	color: #019691;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+.about-heading img{
+	margin-bottom: 30px;
+}
+.about-heading p{
+	font-size: 16px;
+	color: black;
+	margin-bottom: 80px;
+
+}
+.about-heading p span{
+	font-size: 23px;
+}
+.single-about{
+	margin-bottom: 90px;
+}
+.single-about + .single-about{
+	border-left: 1px solid #d9dbdb;
+}
+.about-inside{
+	padding: 50px;
+}
+.single-about:hover{
+	background: red;
+	color: #fff;
+}
+.about-inside h3{
+	font-size: 16px;
+	color: #7e8287;
+	font-weight: 800;
+}
+.about-inside p{
+	font-size: 11px;
+	color: #7e8287;
+}
+.about-inside i.fa{
+	color: #02918c;
+	font-size: 30px;
+}
+.single-about:hover .about-inside i.fa{
+	color: #fff;
+}
+.single-about:hover .about-inside p{
+	color: #fff;
+}
+.single-about:hover .about-inside h3{
+	color: #fff;
+}
+/*footer area*/
+
+.footer{
+	background: #000;
+}
+.footer p{
+	color: #7e8287;
+	font-size: 12px;
+	padding:25px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+.nivo-lightbox-image img{
+	width: 600px;
+	height: 400px;
+}
+
+
+
+
+
+/******************************
+responsive area
+********************************/
+/* lg */ 
+@media (min-width: 1200px) {
+	
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-service{
+		margin-bottom: 30px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding: 12px 10px;
+	}
+	input.message {
+	  width: 718px;
+	}
+}
+
+/* xs */
+@media (min-width: 480px) and (max-width: 767px) {
+	input.name {
+	  margin-top: 55px;
+	  width: 420px;
+	}
+	input.email{
+		width: 420px;
+	}
+	input.message{
+		width: 420px;
+	}
+	.banner h1 {
+	  font-size: 60px;
+	  letter-spacing: 3px;
+	}
+	.about-inside{
+		padding: 10px;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+	.logo{
+		margin-top: 10px;
+	}
+	input.name{
+		margin-top: 55px;
+		width: 275px;
+	}
+	input.email{
+		width: 275px;
+	}
+	input.message{
+		width: 275px;
+	}
+	.contact-form input.submit-btn{
+		width: 200px;
+		height: 50px;
+		border:0;
+	}
+	.banner h1 {
+		  font-size: 38px;
+		  letter-spacing: 0px;
+	}
+	.navbar-header{
+		margin-top: 5px !important;
+	}
+	.about-inside{
+		padding: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
