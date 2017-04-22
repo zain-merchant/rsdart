@@ -12,6 +12,14 @@ body{
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #019691; /* old IE */
+    background-color: #019691; /* Modern Browsers */
+}
+
 a:hover, a:visited, a{
 	text-decoration: none;
 }
@@ -80,6 +88,11 @@ ul.nav{
 .carousel-main{
 	padding-top: 100px;
 }
+
+.carousel{
+	width: 800px;
+	margin: 0 auto;
+}
 /*banner area*/
 
 .banner h2{
@@ -89,7 +102,7 @@ ul.nav{
 	font-weight: 800;
 	text-transform: uppercase;
 	margin-top: 90px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 
@@ -103,7 +116,7 @@ ul.nav{
 	font-weight: 800;
 	text-transform: uppercase;
 	margin-top: 90px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .about-heading img{
 	margin-bottom: 30px;
@@ -111,7 +124,7 @@ ul.nav{
 .about-heading p{
 	font-size: 16px;
 	color: black;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 
 }
 .about-heading p span{
@@ -152,10 +165,36 @@ ul.nav{
 .single-about:hover .about-inside h3{
 	color: #fff;
 }
+
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#019691;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
 /*footer area*/
 
 .footer{
 	background: #000;
+	margin-top: 50px;
 }
 .footer p{
 	color: #7e8287;
@@ -169,8 +208,6 @@ ul.nav{
 	width: 600px;
 	height: 400px;
 }
-
-
 
 
 
